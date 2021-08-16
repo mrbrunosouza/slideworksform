@@ -239,7 +239,7 @@ export function Form() {
                       onClick={() => handleToggleLabel(label)}
                       active={selectedLabels.some(item => item.id === label.id)}
                       color={label.color}
-                    >{label.name}</Tag>
+                    >&nbsp;{label.name}&nbsp;</Tag>
                   ))}
                 </Tags>
                 <Submit type="submit" disabled={loading}>

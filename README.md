@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para criação de cartões em um quadro público do Trello.
 
-## Clone do projeto
+>## Clone do projeto
 
 Para clonar o projeto, clique em 'Code' no github, e depois copie a url via HTPPS, SSH ou GitHub CLI.
 
@@ -10,7 +10,7 @@ Para clonar o projeto, clique em 'Code' no github, e depois copie a url via HTPP
 
 Após clonar o projeto em sua máquina, execute o comando `yarn` para instalar todas as dependências.
 
-### Key, Token e idBoard
+>### Key, Token e idBoard
 
 Acesse o Trello desenvolvedores e solicite sua key e token.
 
@@ -18,7 +18,7 @@ Crie um novo arquivo `.env.local`, copie os dados do arquivo `.env.example` e in
 
 Insira também o id do board que serão incluídos os cards.
 
-#### Identificando a Key, Token e idBoard
+>#### Identificando a Key, Token e idBoard
 
 ##### Key
 Acesse o site [App Key Trello](https://trello.com/app-key) e copie a chave informada no campo.
@@ -37,7 +37,7 @@ Substitua os campos `apiKey` e `apiToken` pela sua key e Token gerados.
 
 O navegador então exibirá uma lista com todos seus boards ativos, copie o **id** do board desejado.
 
-### Funcionalidades desenvolvidas
+>### Funcionalidades desenvolvidas
 
 Name: Campo onde será inserido o nome do card a ser criado.
 
@@ -53,7 +53,7 @@ Tags: Botões de seleção que definirá labels no card, sendo separados por cor
 
 Enviar: Botão de submit do formulário.
 
-## Use a ferramenta
+>## Use a ferramenta
 
 Acesse o board do Trello: [Teste Slideworks](https://trello.com/b/u3Kyq6AR/teste-slideworks).
 

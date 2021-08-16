@@ -134,11 +134,14 @@ interface TagProps {
 
 export const Tag = styled.button<TagProps>`
   background: #f1f9ff;
-  border: 3px solid #d3eafd;
+  border: 3px solid ${({ color }) => color};
+  opacity: 0.5;
   border-radius: 5px;
   
   margin: 0.3rem 0.2rem;
   padding: 0.2rem 0.3rem;
+  height: 28px;
+  min-width: 50px;
 
   font-size: 0.75rem;
 
@@ -148,6 +151,7 @@ export const Tag = styled.button<TagProps>`
     background: ${props.color};
     border-color: ${props.color};
     color: #FFF;
+    opacity: 1;
   `}
 
   &:hover {
