@@ -35,6 +35,8 @@ Substitua os campos `apiKey` e `apiToken` pela sua key e Token gerados.
 
 > **Nota:** Não esqueça de remover as chaves antes de depois da sua key e token.
 
+O navegador então exibirá uma lista com todos seus boards ativos, copie o **id** do board desejado.
+
 ### Funcionalidades desenvolvidas
 
 Name: Campo onde será inserido o nome do card a ser criado.
