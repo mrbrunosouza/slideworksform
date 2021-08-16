@@ -22,7 +22,9 @@ Insira também o id do board que serão incluídos os cards.
 ### Funcionalidades desenvolvidas
 
 Name: Campo onde será inserido o nome do card a ser criado.
+
 E-mail: Campo de e-mail que ficará junto com a descrição do card.
+
 TextArea: Informar a descrição do card.
 
 Checkbox: Campos que criarão checklists no card, que caso selecionados, será marcados como executados no card.
