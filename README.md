@@ -18,6 +18,22 @@ Crie um novo arquivo `.env.local`, copie os dados do arquivo `.env.example` e in
 
 Insira também o id do board que serão incluídos os cards.
 
+#### Identificando a Key, Token e idBoard
+
+##### Key
+Acesse o site [App Key Trello](https://trello.com/app-key) e copie a chave informada no campo.
+
+##### Token
+
+Acesse [App Key](https://trello.com/app-key) e clique na opção para gerar o Token manualmente, após isso, será direcionado para uma nova página, onde será necessário autorizar o Server Token a acessar sua conta. Ao realizar a autorização, será direcionado então para uma página com o seu Token.
+
+##### idBoard
+
+Copie e cole a URL seguinte no seu navegador [https://api.trello.com/1/members/me/boards&key={apiKey}&token={apiToken}](https://api.trello.com/1/members/me/boards&key={apiKey}&token={apiToken}).
+
+Substitua os campos `apiKey` e `apiToken` pela sua key e Token gerados.
+
+> **Nota:** Não esqueça de remover as chaves antes de depois da sua key e token.
 
 ### Funcionalidades desenvolvidas
 
