@@ -44,7 +44,6 @@ export function Form() {
   const [labels, setLabels] = useState<LabelOption[]>([])
   const [loading, setLoading] = useState(false);
   const [selectedLabels, setSelectedLabels] = useState<LabelOption[]>([])
-  const [active, setActive] = useState(false)
 
   useEffect(() =>{
     async function loadList() {

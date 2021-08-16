@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Projeto de formulário para criação de cartões em listas do Trello
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido para criação de cartões em um quadro público do Trello.
 
-## Available Scripts
+## Clone do projeto
 
-In the project directory, you can run:
+Para clonar o projeto, clique em 'Code' no github, e depois copie a url via HTPPS, SSH ou GitHub CLI.
 
-### `yarn start`
+### `yarn`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Após clonar o projeto em sua máquina, execute o comando `yarn` para instalar todas as dependências.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Key, Token e idBoard
 
-### `yarn test`
+Acesse o Trello desenvolvedores e solicite sua key e token.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Crie um novo arquivo `.env.local`, copie os dados do arquivo `.env.example` e insira sua key e token nos campos descritos.
 
-### `yarn build`
+Insira também o id do board que serão incluídos os cards.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Funcionalidades desenvolvidas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Name: Campo onde será inserido o nome do card a ser criado.
+E-mail: Campo de e-mail que ficará junto com a descrição do card.
+TextArea: Informar a descrição do card.
 
-### `yarn eject`
+Checkbox: Campos que criarão checklists no card, que caso selecionados, será marcados como executados no card.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Listas: Colunas criadas no board, que ao selecionar, o card será criado na coluna selecionada.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tags: Botões de seleção que definirá labels no card, sendo separados por cores e nomes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Enviar: Botão de submit do formulário.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Use a ferramenta
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Acesse o board do Trello: [Teste Slideworks](https://trello.com/b/u3Kyq6AR/teste-slideworks).
+Acesse o formulário: [Formulário de cards]()
