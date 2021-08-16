@@ -38,7 +38,9 @@ Substitua os campos `apiKey` e `apiToken` pela sua key e Token gerados.
 ### Funcionalidades desenvolvidas
 
 Name: Campo onde será inserido o nome do card a ser criado.
+
 E-mail: Campo de e-mail que ficará junto com a descrição do card.
+
 TextArea: Informar a descrição do card.
 
 Checkbox: Campos que criarão checklists no card, que caso selecionados, será marcados como executados no card.
@@ -52,4 +54,5 @@ Enviar: Botão de submit do formulário.
 ## Use a ferramenta
 
 Acesse o board do Trello: [Teste Slideworks](https://trello.com/b/u3Kyq6AR/teste-slideworks).
+
 Acesse o formulário: [Formulário de cards](https://slideworksform.vercel.app/).
